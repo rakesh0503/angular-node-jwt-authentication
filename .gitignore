@@ -1,0 +1,46 @@
+# Ignore node_modules in client-angular and jwt-server
+/client-angular/node_modules/
+/jwt-server/node_modules/
+
+/jwt-server/.env
+
+
+# Angular client specific ignores
+/client-angular/dist
+/client-angular/tmp
+/client-angular/out-tsc
+/client-angular/bazel-out
+
+# Node
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/client-angular/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
