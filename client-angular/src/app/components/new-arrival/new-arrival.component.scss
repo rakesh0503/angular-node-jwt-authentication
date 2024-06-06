@@ -1,0 +1,25 @@
+.new-arrival {
+  ngb-carousel {
+    text-align: center;
+  }
+  img {
+    height: 300px;
+    width: 100vw;
+  }
+}
+.cloth {
+  img {
+    object-fit: cover;
+    height: 15rem;
+    transition: transform 0.2s;
+  }
+
+  .card {
+    overflow: hidden;
+    padding: 0px 0px;
+  }
+
+  img:hover {
+    transform: scale(1.1);
+  }
+}
